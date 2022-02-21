@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react'
 
 function Update() {
-  const [title, setTitle] = useState()
-  const [userId, setUserId] = useState()
-  const [body, setBody] = useState()
-  const [id, setId] = useState()
+  const [title, setTitle] = useState('')
+  const [userId, setUserId] = useState('')
+  const [body, setBody] = useState('')
+  const [id, setId] = useState('')
 
   const userIdHandler = (e) => {
     setUserId(e.target.value)

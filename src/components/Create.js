@@ -3,9 +3,9 @@ import './Form.css'
 
 
 function Create() {
-  const [title, setTitle] = useState()
-  const [userId, setUserId] = useState()
-  const [body, setBody] = useState()
+  const [title, setTitle] = useState('')
+  const [userId, setUserId] = useState('')
+  const [body, setBody] = useState('')
 
   const userIdHandler = (e) => {
     setUserId(e.target.value)

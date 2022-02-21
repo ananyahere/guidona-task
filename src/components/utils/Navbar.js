@@ -12,11 +12,8 @@ function Navbar() {
       <Link to="/create" key={"2"}>
         <li className="navStyle btn">Create</li>
       </Link>,
-      <Link to="/read" key={"3"}>
-        <li className="navStyle btn">Read</li>
-      </Link>,
-      <Link to="/update" key={"4"}>
-        <li className="navStyle btn" >Update</li>
+      <Link to="/readOne" key={"4"}>
+        <li className="navStyle btn" >Read One</li>
       </Link>
     ]
   }
